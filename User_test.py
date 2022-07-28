@@ -11,7 +11,7 @@ class TestUser:
     def setup(self):
         print('setup')
         # 实例化自己的Common
-        comm = Common('http://127.0.0.1:8080')
+        comm = Common('http://127.0.0.1:8081')
         self.comm = comm
 
     def test_createUser(self):

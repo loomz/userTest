@@ -8,8 +8,11 @@
 # 安装依赖
 示例系统python3.6及其以上运行的，确认 pytest是否有
 
+    pip3 install requests
+    pip3 install -U pytest
     pytest --version
-    pip install -U pytest
  
 # 接口地址
-http://127.0.0.1:8080/user
+http://127.0.0.1:8081/user
+
+#
